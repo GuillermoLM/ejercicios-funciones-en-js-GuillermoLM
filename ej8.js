@@ -12,7 +12,16 @@
 let sumaDesdeHasta = (desde, hasta) => {
     let sumatorio = 0;
     // Aquí tu código.  Desde aquí:
-
+    if (desde === hasta) {
+        sumatorio == desde;
+    } else{
+        for (let i = hasta; i >= desde; i--) {
+            sumatorio = sumatorio + i;
+        }
+    }
+    for (let i = hasta; i <= desde; i++) {
+        sumatorio = sumatorio + i;
+    }
     // Hasta aquí.
     return sumatorio;
 }
