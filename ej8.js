@@ -1,6 +1,6 @@
 // Mejoras en la función  sumaDesdeHasta
 
-// Debe hacer los mismo que la función del ejercicio 6 y además:
+// Debe hacer los mismo que la función del ejercicio 7 y además:
 
 // si la función recibe un numero de 
 // inicio menor que el de final debe funcionar igual, sumando los enteros entre ellos.
