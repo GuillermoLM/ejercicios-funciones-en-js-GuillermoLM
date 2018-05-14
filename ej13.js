@@ -38,7 +38,7 @@ let gente = [{
 
 
 // Aquí tu código.  Desde aquí:
-const filtraGente 
+const filtraGente = (arrayPersonas) => arrayPersonas.filter(persona => persona.nombre.length === 4 && persona.edad < 15)
 // Hasta aquí.
 
 
